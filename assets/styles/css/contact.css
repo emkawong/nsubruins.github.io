@@ -1,0 +1,84 @@
+#contact h1 {
+  color: #0D123D;
+  font-family: "Jura", sans-serif;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 2rem; }
+#contact h2 {
+  font-family: "Jura", sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: #0D123D;
+  font-weight: bold;
+  margin-bottom: 3rem; }
+#contact h3 {
+  font-family: "Jura", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem; }
+#contact h4 {
+  font-family: "Jura", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: black;
+  margin-bottom: 1.3rem; }
+#contact h5 {
+  font-family: "Jura", sans-serif; }
+#contact p {
+  font-family: "Jura", sans-serif;
+  color: #999;
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem; }
+#contact .align-center {
+  text-align: center; }
+#contact .top {
+  padding-top: 8rem;
+  padding-bottom: 4rem; }
+#contact .icons #set-1 .hi-icon-wrap {
+  padding: 0; }
+#contact .icons #set-1 .icon-container {
+  display: inline-block;
+  width: 35%; }
+#contact .icons #set-1 object {
+  background-color: #007792; }
+#contact .icons #set-1 svg {
+  background-color: #96D5BD;
+  border-radius: 10rem;
+  padding: 1.5rem;
+  opacity: 0;
+  height: 3rem;
+  width: 3rem;
+  margin-bottom: 1.5rem; }
+  #contact .icons #set-1 svg path, #contact .icons #set-1 svg rect, #contact .icons #set-1 svg polygon {
+    stroke: white !important;
+    fill: white !important; }
+  #contact .icons #set-1 svg:hover {
+    background-color: #E3B759; }
+#contact #map-and-text {
+  margin: 8rem;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 2px;
+  box-shadow: 0 0 2rem #999; }
+  #contact #map-and-text h3.map-heading {
+    padding: 2rem;
+    border-bottom: 1px solid black; }
+  #contact #map-and-text #map {
+    text-align: center;
+    height: auto; }
+    #contact #map-and-text #map img {
+      width: 100%;
+      height: auto;
+      filter: gray;
+      /* IE6-9 */
+      filter: grayscale(1);
+      /* Firefox 35+ */
+      -webkit-filter: grayscale(1);
+      /* Google Chrome, Safari 6+ & Opera 15+ */ }
+  #contact #map-and-text #text {
+    padding: 4rem;
+    padding-left: 2rem; }
+
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,22 @@
+// colors
+$color1: #96D5BD;
+$color2: #96CED3;
+$color3: #007792;
+$color4: #0D123D;
+
+/*includes below*/
+/*resets*/
+@import './reset.scss';
+/*shared*/
+@import './sidebar.scss';
+@import './header.scss';
+@import './footer.scss';
+.fade-in {
+  opacity: 0;
+}
+/*page specific*/
+@import './home.scss';
+@import './events.scss';
+@import './cultural.scss';
+@import './contact.scss';
+@import './about.scss';

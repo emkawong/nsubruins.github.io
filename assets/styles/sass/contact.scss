@@ -1,0 +1,115 @@
+$color1: #96D5BD;
+$color2: #96CED3;
+$color3: #007792;
+$color4: #0D123D;
+$orange: #E3B759;
+$main-font: 'Jura';
+#contact {
+  // background-color: #F5F5F5;
+  h1 {
+    color: $color4;
+    font-family: $main-font, sans-serif;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  h2 {
+    font-family: $main-font, sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: $color4;
+    font-weight: bold;
+    margin-bottom: 3rem;
+  }
+  h3 {
+      font-family: $main-font, sans-serif;
+      text-transform: uppercase;
+      font-size: 1.4rem;
+      font-weight: bold;
+      margin-bottom: 1.4rem;
+  }
+  h4 {
+    font-family: $main-font, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: black;
+    margin-bottom: 1.3rem;
+  }
+  h5 { font-family: $main-font, sans-serif; }
+  p {
+    font-family: $main-font, sans-serif;
+    color: #999;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+  .align-center {
+    text-align: center;
+  }
+  .top {
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+  }
+  .icons {
+    #set-1 	{
+      .hi-icon-wrap {
+        padding: 0;
+      }
+      .icon-container {
+        display: inline-block;
+        width: 35%;
+      }
+      object {
+        background-color: $color3;
+      }
+      svg {
+        background-color: $color1;
+        border-radius: 10rem;
+        padding: 1.5rem;
+        opacity: 0;
+        height: 3rem;
+        width: 3rem;
+        margin-bottom: 1.5rem;
+        path, rect, polygon {
+          stroke: white !important;
+          fill: white !important;
+        }
+        &:hover {
+          background-color: $orange;
+          path, rect, polygon {
+            // stroke: $color3 !important;
+            // fill: $color3-dark !important;
+          }
+        }
+      }
+    }
+
+  }
+  #map-and-text {
+    h3.map-heading {
+      padding: 2rem;
+      border-bottom: 1px solid black;
+    }
+    margin: 8rem;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 2px;
+    box-shadow: 0 0 2rem #999;
+    #map {
+      text-align: center;
+      height: auto;
+      img {
+        width: 100%;
+        height: auto;
+        // padding: 1rem;
+        filter: gray; /* IE6-9 */
+        filter: grayscale(1); /* Firefox 35+ */
+        -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+      }
+    }
+    #text {
+      padding: 4rem;
+      padding-left: 2rem;
+    }
+  }
+}

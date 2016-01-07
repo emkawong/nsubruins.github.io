@@ -1,0 +1,112 @@
+/*================================================================================
+ EVENTS
+================================================================================*/
+#events {
+  background-color: white;
+  width: 100%;
+  /*icons*/ }
+  #events #text {
+    text-align: center; }
+    #events #text .title {
+      padding-top: 6rem;
+      padding-bottom: 2rem;
+      text-transform: uppercase;
+      font-size: 3.5rem;
+      font-weight: bold; }
+    #events #text .sub {
+      font-size: 1.8rem;
+      padding-bottom: 3rem; }
+  #events .time-header {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-color: black;
+    font-size: 2.5rem; }
+    #events .time-header img {
+      height: 500px;
+      width: auto; }
+    #events .time-header:last-child {
+      margin-top: 4rem; }
+  #events .large-text {
+    font-weight: 300;
+    font-size: 5rem;
+    font-family: 'Jura', sans-serif;
+    color: #007792;
+    text-transform: uppercase; }
+  #events .medium-text {
+    padding-top: 1rem;
+    font-weight: 300;
+    font-size: 2rem;
+    font-family: 'Jura', sans-serif;
+    text-transform: uppercase; }
+  #events .small-text {
+    font-weight: 300;
+    font-size: 1rem;
+    font-family: 'Jura', sans-serif; }
+  #events .justified-text {
+    text-align: justify; }
+  #events .center-text {
+    text-align: center; }
+  #events section.banner-container {
+    background-color: #96CED3;
+    padding: 3rem;
+    border-bottom: .4rem solid white; }
+    #events section.banner-container div.banner {
+      background-image: url("../../images/banner.png");
+      background-position: center;
+      background-size: 100% 120%;
+      background-repeat: no-repeat; }
+      #events section.banner-container div.banner p {
+        color: white;
+        font-size: 5rem;
+        position: relative;
+        bottom: .4rem; }
+  #events .col-33 {
+    width: 23%;
+    display: inline-block;
+    padding-left: 5%;
+    padding-right: 5%;
+    vertical-align: top; }
+  #events #set-1 {
+    background-color: #007792;
+    color: white;
+    border-bottom: .4rem solid white; }
+    #events #set-1 .hi-icon-effect-1 .hi-icon {
+      opacity: 0;
+      color: white;
+      background: #96D5BD; }
+      #events #set-1 .hi-icon-effect-1 .hi-icon:hover {
+        color: white;
+        background: #E3B759; }
+  #events #set-2 {
+    background-color: #96CED3;
+    color: #007792;
+    border-bottom: .4rem solid white; }
+    #events #set-2 .hi-icon-effect-1 .hi-icon {
+      opacity: 0;
+      color: #007792;
+      background: white; }
+      #events #set-2 .hi-icon-effect-1 .hi-icon:hover {
+        color: white;
+        background: #007792; }
+  #events .icon-container p {
+    padding-bottom: 2rem; }
+  #events .icon-container p:first-child {
+    text-align: center; }
+  #events .icon-container a {
+    padding-bottom: .5rem; }
+  #events .hi-icon-effect-6 .hi-icon {
+    box-shadow: 0 0 0 4px white;
+    transition: background 0.2s, color 0.2s; }
+  #events .no-touch .hi-icon-effect-6 .hi-icon:hover {
+    background: white;
+    color: #64bb5d; }
+  #events .no-touch .hi-icon-effect-6 .hi-icon:hover:before {
+    animation: spinAround 2s linear infinite; }
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+/*# sourceMappingURL=events.css.map */

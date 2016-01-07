@@ -1,0 +1,337 @@
+$color1: #96D5BD;
+$color2: #96CED3;
+$color3: #007792;
+$color4: #0D123D;
+$orange: #E3B759;
+/*================================================================================
+  Sections - Main & Mission/Vision
+================================================================================*/
+#about {
+  background-color: white;
+  .container {
+  	border-bottom: 1px solid #666;
+  	text-align: center;
+  	z-index: -2;
+  	opacity: 0;
+  }
+  .dark {
+  	color: #333 !important;
+  }
+  /* start da css for da buttons */
+  .buttons {
+    display: inline-block;
+    max-width: 24%;
+  }
+  .btn {
+    border-radius: 1px;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin: .5rem;
+    color: white;
+    position: relative;
+    display: inline-block;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+  }
+
+  .btn:active {
+    transform: translate(0px, 2px);
+    -webkit-transform: translate(0px, 2px);
+    box-shadow: 0px 1px 0px 0px;
+  }
+
+  .blue {
+    background-color: $color2;
+    box-shadow: 0px 2px 0px 0px #7DB5BA;
+    &:hover {
+      background-color: #7DB5BA;
+    }
+  }
+  .dark-blue {
+    background-color: $color3;
+    box-shadow: 0px 2px 0px 0px #7DB5BA;
+    &:hover {
+      background-color: #7DB5BA;
+    }
+  }
+  .inner_container {
+  	width: 800px;
+  	margin: 40px auto 40px auto;
+  	padding: 50px 0;
+  	overflow: hidden;
+  }
+  .inner_container h1 {
+  	font-size: 3em;
+  	margin: 0 0 50px 0;
+  }
+  .inner_container h2 {
+  	font-size: 2em;
+  	color: #333;
+  }
+  .inner_container p {
+  	font-size: 1.5em;
+  	color: #999;
+  }
+  .inner_container ul li {
+  	color: #999;
+  	font-weight: lighter;
+  }
+  .link_blue {
+  	color: #fff;
+  	font-family: 'Oswald',sans-serif;
+  	text-transform: uppercase;
+  	font-size: 1.8em;
+  	background-color: #3b97d3;
+  	padding: 5px 20px;
+  	border-radius: 2px;
+  	text-decoration: none;
+  	margin-left: 10px;
+  }
+  .link_blue2 {
+  	color: #fff;
+  	font-family: 'Oswald',sans-serif;
+  	text-transform: uppercase;
+  	font-size: 1.8em;
+  	background-color: #74c8ff;
+  	padding: 5px 20px;
+  	border-radius: 2px;
+  	text-decoration: none;
+  	margin-left: 10px;
+  }
+  .mission {
+  	margin-top: 80px;
+  }
+  .mission_text {
+  	width: 670px;
+  	overflow: hidden;
+  	margin: 40px auto;
+  }
+  .mission_text h2 {
+  	margin: 0 0 20px 0;
+  }
+  .mission_text p {
+  	font-size: 1.2em !important;
+  }
+  .mission_text ul li {
+  	font-size: 1.2em !important;
+  	list-style: none;
+  }
+  .mission_ind {
+  	width: 300px;
+  }
+  .mission_left {
+  	text-align: right !important;
+  	float: left;
+  	padding: 0 20px 0 0;
+
+  }
+  .mission_right {
+  	text-align: left !important;
+  	float: left;
+  	padding: 0 0 0 20px;
+  	border-left: 1px solid #666;
+  }
+
+  /*================================================================================
+    Sections - Outcomes, About, Long Term, Videos
+  ================================================================================*/
+  .outcomes img {
+  	width: 640px;
+  	margin: 10px auto 50px 0;
+  }
+  .article_photos {
+  	width: 400px;
+  	overflow: hidden;
+  	margin: 40px auto auto auto;
+  	text-align: center;
+  }
+  .article_photos a {
+  	background-color: #ffffff !important;
+  }
+  .article1 {
+  	float: left;
+  	display: block;
+  	margin: 0 20px 0 0;
+  	width: 111px;
+  	height: 162px;
+  }
+  .article1 img{
+  	width:111px;
+  }
+  .article1:hover {
+  	 opacity: .6;
+      filter: alpha(opacity=60);
+  }
+  .article2 {
+  	float: left;
+  	display: block;
+  	margin: 0 20px 0 0;
+  	width: 111px;
+  	height: 161px;
+  	 }
+  .article2 img{
+  	width:111px;
+  }
+  .article2:hover {
+  	opacity: .6;
+      filter: alpha(opacity=60);
+  }
+  .article3 {
+  	float: left;
+  	display: block;
+  	margin: 0;
+  	width: 111px;
+  	height: 161px;  }
+
+  .article3 img{
+  	width:111px;
+  }
+  .article3:hover {
+  	opacity: .6;
+      filter: alpha(opacity=60);
+  }
+  .video_links {
+  	margin: 50px 0 0 0 !important;
+  	overflow: hidden;
+  }
+  .ind_video {
+  	border: 5px solid #999;
+  	margin: 0 20px 20px 0;
+  }
+
+  /*================================================================================
+    Sections - Board
+  ================================================================================*/
+  .board_ind {
+  	width: 300px;
+  	float: left;
+  }
+  .board_ind ul {
+  	list-style: none;
+  	padding: 0;
+  }
+  .board_ind ul li {
+  	font-size: 1.1em;
+  	line-height: 140%;
+  }
+  .board_ind ul li strong {
+  	color: #666;
+  }
+  .italic {
+  	font-style: italic;
+  }
+  .board_left {
+  	margin: 0 20px 0 0;
+  	text-align: right;
+  	width: 350px !important;
+  }
+  .board_right {
+  	padding: 0 0 0 20px;
+  	text-align: left;
+  }
+  .facilities img {
+  	width: 200px;
+  }
+  .contact h2 {
+  	margin: 0 0 10px 0;
+  }
+  .contact ul {
+  	list-style: none;
+  	padding: 0;
+  }
+  .contact ul li {
+  	font-size: 1.1em;
+  }
+  .contact p {
+  	font-size: 1.1em;
+  }
+  .last_container {
+  	border-bottom: 1px solid #fff !important;
+  }
+  .bottom_space {
+  	margin: 0 0 20px 0 !important;
+  }
+  #board_bios {
+  	width: 800px;
+  	margin: 0 auto 80px auto;
+  }
+  #board_bios h2 {
+  	font-size: 2em;
+  	padding-bottom: 20px;
+  }
+  #board_bios img {
+  	width: 800px;
+  	margin-bottom: 20px;
+  }
+  #board_bios p {
+  	font-size: 1.4em;
+  	color: #999;
+  	padding-bottom: 20px;
+  }
+  #board_bios a {
+  	color: #fff;
+  	text-decoration: none;
+  	font-family: 'Oswald' sans-serif;
+  	background: #3b97d3;
+  	border-radius: 2px;
+  	padding: 5px 10px;
+  	text-transform: uppercase;
+  	font-size: 1.8em;
+  }
+  #board_bios a:hover {
+  	opacity: .7;
+  }
+
+
+
+  /*================================================================================
+    Biographies
+  ================================================================================*/
+  #bio_container {
+  	width: 800px;
+  	margin: 60px auto 50px auto;
+  }
+  #bio_container h1 {
+  	font-size: 3em;
+  	margin-bottom: 50px;
+  }
+  .bio_single {
+  	overflow: hidden;
+  	margin-bottom: 30px;
+  }
+  .bio_single img {
+  	width: 200px;
+  	float: left;
+  	margin-right: 20px;
+  	margin-top: 20px;
+  }
+  .bio_text {
+  	width: 500px;
+  	text-align: left;
+  	float: left;
+  }
+  .bio_text h2 {
+  	margin: 0;
+  }
+  .position {
+  	font-style: italic;
+  	color: #333 !important;
+  	margin-top: 0 !important;
+  }
+  .bio_text p {
+  	font-size: 1.1em;
+  	color: #999;
+  }
+}
+
+/*================================================================================
+  History
+================================================================================*/
+
+.history {
+  .text-container {
+    margin-bottom: 2rem;
+  }
+}

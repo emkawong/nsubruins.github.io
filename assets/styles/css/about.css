@@ -1,0 +1,255 @@
+/*================================================================================
+  Sections - Main & Mission/Vision
+================================================================================*/
+#about {
+  background-color: white;
+  /* start da css for da buttons */
+  /*================================================================================
+    Sections - Outcomes, About, Long Term, Videos
+  ================================================================================*/
+  /*================================================================================
+    Sections - Board
+  ================================================================================*/
+  /*================================================================================
+    Biographies
+  ================================================================================*/ }
+  #about .container {
+    border-bottom: 1px solid #666;
+    text-align: center;
+    z-index: -2;
+    opacity: 0; }
+  #about .dark {
+    color: #333 !important; }
+  #about .buttons {
+    display: inline-block;
+    max-width: 24%; }
+  #about .btn {
+    border-radius: 1px;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin: .5rem;
+    color: white;
+    position: relative;
+    display: inline-block;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important; }
+  #about .btn:active {
+    transform: translate(0px, 2px);
+    -webkit-transform: translate(0px, 2px);
+    box-shadow: 0px 1px 0px 0px; }
+  #about .blue {
+    background-color: #96CED3;
+    box-shadow: 0px 2px 0px 0px #7DB5BA; }
+    #about .blue:hover {
+      background-color: #7DB5BA; }
+  #about .dark-blue {
+    background-color: #007792;
+    box-shadow: 0px 2px 0px 0px #7DB5BA; }
+    #about .dark-blue:hover {
+      background-color: #7DB5BA; }
+  #about .inner_container {
+    width: 800px;
+    margin: 40px auto 40px auto;
+    padding: 50px 0;
+    overflow: hidden; }
+  #about .inner_container h1 {
+    font-size: 3em;
+    margin: 0 0 50px 0; }
+  #about .inner_container h2 {
+    font-size: 2em;
+    color: #333; }
+  #about .inner_container p {
+    font-size: 1.5em;
+    color: #999; }
+  #about .inner_container ul li {
+    color: #999;
+    font-weight: lighter; }
+  #about .link_blue {
+    color: #fff;
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    background-color: #3b97d3;
+    padding: 5px 20px;
+    border-radius: 2px;
+    text-decoration: none;
+    margin-left: 10px; }
+  #about .link_blue2 {
+    color: #fff;
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    background-color: #74c8ff;
+    padding: 5px 20px;
+    border-radius: 2px;
+    text-decoration: none;
+    margin-left: 10px; }
+  #about .mission {
+    margin-top: 80px; }
+  #about .mission_text {
+    width: 670px;
+    overflow: hidden;
+    margin: 40px auto; }
+  #about .mission_text h2 {
+    margin: 0 0 20px 0; }
+  #about .mission_text p {
+    font-size: 1.2em !important; }
+  #about .mission_text ul li {
+    font-size: 1.2em !important;
+    list-style: none; }
+  #about .mission_ind {
+    width: 300px; }
+  #about .mission_left {
+    text-align: right !important;
+    float: left;
+    padding: 0 20px 0 0; }
+  #about .mission_right {
+    text-align: left !important;
+    float: left;
+    padding: 0 0 0 20px;
+    border-left: 1px solid #666; }
+  #about .outcomes img {
+    width: 640px;
+    margin: 10px auto 50px 0; }
+  #about .article_photos {
+    width: 400px;
+    overflow: hidden;
+    margin: 40px auto auto auto;
+    text-align: center; }
+  #about .article_photos a {
+    background-color: #ffffff !important; }
+  #about .article1 {
+    float: left;
+    display: block;
+    margin: 0 20px 0 0;
+    width: 111px;
+    height: 162px; }
+  #about .article1 img {
+    width: 111px; }
+  #about .article1:hover {
+    opacity: .6;
+    filter: alpha(opacity=60); }
+  #about .article2 {
+    float: left;
+    display: block;
+    margin: 0 20px 0 0;
+    width: 111px;
+    height: 161px; }
+  #about .article2 img {
+    width: 111px; }
+  #about .article2:hover {
+    opacity: .6;
+    filter: alpha(opacity=60); }
+  #about .article3 {
+    float: left;
+    display: block;
+    margin: 0;
+    width: 111px;
+    height: 161px; }
+  #about .article3 img {
+    width: 111px; }
+  #about .article3:hover {
+    opacity: .6;
+    filter: alpha(opacity=60); }
+  #about .video_links {
+    margin: 50px 0 0 0 !important;
+    overflow: hidden; }
+  #about .ind_video {
+    border: 5px solid #999;
+    margin: 0 20px 20px 0; }
+  #about .board_ind {
+    width: 300px;
+    float: left; }
+  #about .board_ind ul {
+    list-style: none;
+    padding: 0; }
+  #about .board_ind ul li {
+    font-size: 1.1em;
+    line-height: 140%; }
+  #about .board_ind ul li strong {
+    color: #666; }
+  #about .italic {
+    font-style: italic; }
+  #about .board_left {
+    margin: 0 20px 0 0;
+    text-align: right;
+    width: 350px !important; }
+  #about .board_right {
+    padding: 0 0 0 20px;
+    text-align: left; }
+  #about .facilities img {
+    width: 200px; }
+  #about .contact h2 {
+    margin: 0 0 10px 0; }
+  #about .contact ul {
+    list-style: none;
+    padding: 0; }
+  #about .contact ul li {
+    font-size: 1.1em; }
+  #about .contact p {
+    font-size: 1.1em; }
+  #about .last_container {
+    border-bottom: 1px solid #fff !important; }
+  #about .bottom_space {
+    margin: 0 0 20px 0 !important; }
+  #about #board_bios {
+    width: 800px;
+    margin: 0 auto 80px auto; }
+  #about #board_bios h2 {
+    font-size: 2em;
+    padding-bottom: 20px; }
+  #about #board_bios img {
+    width: 800px;
+    margin-bottom: 20px; }
+  #about #board_bios p {
+    font-size: 1.4em;
+    color: #999;
+    padding-bottom: 20px; }
+  #about #board_bios a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Oswald' sans-serif;
+    background: #3b97d3;
+    border-radius: 2px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-size: 1.8em; }
+  #about #board_bios a:hover {
+    opacity: .7; }
+  #about #bio_container {
+    width: 800px;
+    margin: 60px auto 50px auto; }
+  #about #bio_container h1 {
+    font-size: 3em;
+    margin-bottom: 50px; }
+  #about .bio_single {
+    overflow: hidden;
+    margin-bottom: 30px; }
+  #about .bio_single img {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px; }
+  #about .bio_text {
+    width: 500px;
+    text-align: left;
+    float: left; }
+  #about .bio_text h2 {
+    margin: 0; }
+  #about .position {
+    font-style: italic;
+    color: #333 !important;
+    margin-top: 0 !important; }
+  #about .bio_text p {
+    font-size: 1.1em;
+    color: #999; }
+
+/*================================================================================
+  History
+================================================================================*/
+.history .text-container {
+  margin-bottom: 2rem; }
+
+/*# sourceMappingURL=about.css.map */

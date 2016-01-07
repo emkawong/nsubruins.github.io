@@ -1,0 +1,160 @@
+// colors
+$color1: #96D5BD;
+$color2: #96CED3;
+$color3: #007792;
+$color4: #0D123D;
+$orange: #E3B759;
+/*================================================================================
+ EVENTS
+================================================================================*/
+ #events {
+ 	#text {
+ 		text-align: center;
+ 		.title {
+ 			padding-top: 6rem;
+ 			padding-bottom: 2rem;
+ 			text-transform: uppercase;
+ 			font-size: 3.5rem;
+ 			font-weight: bold;
+ 		}
+ 		.sub {
+ 			font-size: 1.8rem;
+ 			padding-bottom: 3rem;
+ 		}
+ 	}
+ 	.time-header{
+ 		padding-top: 2rem;
+ 		padding-bottom: 2rem;
+ 		text-align: center;
+ 		font-color: black;
+ 		font-size: 2.5rem;
+ 		img {
+ 			height: 500px;
+ 			width: auto;
+ 		}
+ 		&:last-child {
+ 			margin-top: 4rem;
+ 		}
+ 	}
+	 background-color: white;
+	 width: 100%;
+
+	 .large-text {
+		 font-weight: 300;
+		 font-size: 5rem;
+		 font-family: 'Jura', sans-serif;
+		 color: $color3;
+		 text-transform: uppercase;
+	 }
+	 .medium-text {
+		 padding-top: 1rem;
+		 font-weight: 300;
+		 font-size: 2rem;
+		 font-family: 'Jura', sans-serif;
+		 		 text-transform: uppercase;
+	 }
+	 .small-text {
+		 font-weight: 300;
+		 font-size: 1rem;
+		 font-family: 'Jura', sans-serif;
+	 }
+
+	 .justified-text {
+		 text-align: justify;
+	 }
+	 .center-text {
+		 text-align: center;
+	 }
+
+	 #annual_events {
+	 }
+	 section.banner-container {
+		 background-color: $color2;
+		 padding: 3rem;
+		 border-bottom: .4rem solid white;
+		 div.banner {
+			 background-image: url('../../images/banner.png');
+			 background-position: center;
+			 background-size: 100% 120%;
+			 background-repeat: no-repeat;
+			 p {
+				 color: white;
+				 font-size: 5rem;
+				 position: relative;
+				 bottom: .4rem;
+			 }
+		 }
+	}
+	.col-33 {
+		width: 23%;
+		display: inline-block;
+		padding-left: 5%;
+		padding-right: 5%;
+		vertical-align: top;
+	}
+
+	#set-1 	{
+		background-color: $color3;
+		color: white;
+		border-bottom: .4rem solid white;
+		.hi-icon-effect-1 .hi-icon {
+			opacity: 0;
+			color: white;
+			background: $color1;
+			&:hover {
+				color: white;
+				background: $orange;
+			}
+		}
+	}
+
+	#set-2 	{
+		background-color: $color2;
+		color: $color3;
+		border-bottom: .4rem solid white;
+		.hi-icon-effect-1 .hi-icon {
+			opacity: 0;
+			color: $color3;
+			background: white;
+			&:hover {
+				color: white;
+				background: $color3;
+			}
+		}
+	}
+
+
+	 .icon-container p {
+		padding-bottom: 2rem;
+	}
+		 .icon-container p:first-child {
+			text-align: center;
+		}
+	 .icon-container a {
+		padding-bottom: .5rem;
+	}
+
+	/*icons*/
+	.hi-icon-effect-6 .hi-icon {
+		box-shadow: 0 0 0 4px rgba(255,255,255,1);
+		transition: background 0.2s, color 0.2s;
+	}
+
+	.no-touch .hi-icon-effect-6 .hi-icon:hover {
+		background: rgba(255,255,255,1);
+		color: #64bb5d;
+	}
+
+	.no-touch .hi-icon-effect-6 .hi-icon:hover:before {
+		animation: spinAround 2s linear infinite;
+	}
+
+	@keyframes spinAround {
+		from {
+			transform: rotate(0deg)
+		}
+		to {
+			transform: rotate(360deg);
+		}
+	}
+}

@@ -1,0 +1,95 @@
+/*================================================================================
+ Footer
+================================================================================*/
+
+#footer_background {
+	background: #0D123D;
+	font-family: 'Jura', sans-serif;
+	border-top: 5px solid #999;
+	overflow: hidden;
+	padding: 20px;
+	/*margin: 0 -10px -10px -10px;*/
+}
+#footer {
+	width: 100%;
+	margin: 0 auto;
+	text-align: left !important;
+}
+#footer img {
+	height: 4rem;
+	width: auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	/*float: left;*/
+	/*margin: 0 0 30px 0;*/
+}
+#footer h4 {
+	color: #89D0B5;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 1.4rem;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 1rem;
+}
+#footer p {
+	color: white;
+	font-size: .7rem;
+	padding-bottom: .2rem;
+}
+#footer ul {
+	list-style: none;
+	padding: 0;
+}
+#footer ul li {
+	color: #fff;
+	font-size: .7rem;
+	padding-bottom: .2rem;
+	font-weight: 100;
+}
+#footer a {
+	text-decoration: none;
+	color: #fff;
+}
+#footer a.logo-link {
+	float: left;
+	height: 100%;
+	width: auto;
+}
+#footer a:hover {
+	color: #89D0B5;
+}
+#contact_navigation {
+	clear: both;
+	/*margin: 20px 0 20px 0;*/
+}
+.contact_us {
+	/*width: 180px;*/
+	float: right;
+	padding-left: 20px;
+	/*margin: 0 20px 0 0;*/
+}
+.contact_us ul {
+	list-style: none;
+	padding: 0;
+}
+.contact_us ul li {
+	margin: 0;
+	text-align: left;
+}
+.site_navigation {
+	float: right;
+	/*width: 600px;*/
+	text-align: left !important;
+}
+.single_navigation2 {
+	clear: both;
+	float: left;
+}
+.single_navigation {
+	float: left;
+	margin: 0 30px 0 0;
+}
+.single_navigation ul li {
+	text-align: left !important;
+}

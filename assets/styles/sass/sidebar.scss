@@ -1,0 +1,73 @@
+$color1: #96D5BD;
+$color2: #96CED3;
+$color3: #007792;
+$color3-dark: #00445F;
+$color4: #0D123D;
+$orange: #E3B759;
+
+/*================================================================================
+  Sidebar
+================================================================================*/
+#sidebar {
+	position: fixed;
+	top: 5rem;
+	left: 1rem;
+	width: 50px;
+	z-index: 10;
+  svg {
+		opacity: 0;
+		height: 3rem;
+		margin-bottom: 1.5rem;
+		path, rect, polygon {
+			fill: $color3 !important;
+		}
+		&:hover {
+			path, rect, polygon {
+				fill: $color3-dark !important;
+			}
+		}
+  }
+  .mission_icon_text {
+  	position: relative;
+  	left: 0;
+  }
+  .outcomes_icon_text {
+  	position: relative;
+  	left: 0;
+  }
+  .articles_icon_text {
+  	position: relative;
+  	left: 0;
+  }
+  .long_icon_text {
+  	position: relative;
+  	left: 0;
+  }
+  .videos_icon_text {
+  	position: relative;
+  	left: 0;
+  }
+  .facilities_icon_text {
+  	position: relative;
+  	left: 0;
+  }
+  .board_icon_text {
+  	position: relative;
+  	left: 0;
+  }
+  .contact_icon_text {
+  	position: relative;
+  	left: 0;
+  }
+}
+#sidebar_text {
+  position: fixed;
+	z-index: 2;
+}
+#sidebar_text p {
+	position: relative;
+	left: -100%;
+	height: 3rem;
+	margin-bottom: 1.5rem;
+	top: 2rem;
+}

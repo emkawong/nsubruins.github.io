@@ -1,0 +1,104 @@
+/*================================================================================
+Cultural events
+================================================================================*/
+#cultural {
+  /*--Main Styles--*/ }
+  #cultural .bold {
+    font-weight: bold; }
+  #cultural h1 {
+    color: #0D123D;
+    font-family: "Jura", sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem; }
+  #cultural h2 {
+    font-family: "Jura", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: #0D123D;
+    font-weight: bold;
+    margin-bottom: 1.1rem; }
+  #cultural h3 {
+    font-family: "Jura", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 1.1rem; }
+  #cultural h4 {
+    font-family: "Jura", sans-serif; }
+  #cultural h5 {
+    font-family: "Jura", sans-serif; }
+  #cultural p {
+    font-family: "Jura", sans-serif;
+    color: #999;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem; }
+  #cultural .main-image {
+    width: 100%;
+    height: 50vh;
+    background-position: 20% center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  #cultural .about-event {
+    text-align: center;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px; }
+    #cultural .about-event .col {
+      text-align: left;
+      display: inline-block;
+      margin: 2rem;
+      width: 40%;
+      vertical-align: top; }
+      #cultural .about-event .col .bold {
+        margin-top: 2rem;
+        margin-bottom: 2rem; }
+    #cultural .about-event .left {
+      padding-top: 2rem; }
+    #cultural .about-event .right {
+      width: 30%;
+      padding: 2rem;
+      margin-right: 0;
+      margin-left: 4rem;
+      border-radius: 1rem;
+      background: url("../../images/line.jpg");
+      background-position: top;
+      background-repeat: no-repeat;
+      background-color: #ecf0f1;
+      background-size: 100% .8rem; }
+  #cultural .highlights {
+    text-align: center;
+    padding: 4rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: url("../../images/line.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% .8rem;
+    background-color: #007792;
+    color: white; }
+    #cultural .highlights h1 {
+      color: white; }
+    #cultural .highlights .highlight {
+      vertical-align: top;
+      width: 20%;
+      padding: 2rem;
+      display: inline-block;
+      color: white; }
+      #cultural .highlights .highlight p, #cultural .highlights .highlight h1, #cultural .highlights .highlight h2 {
+        color: white; }
+      #cultural .highlights .highlight svg {
+        height: 8rem;
+        width: 8rem;
+        margin-bottom: 1.5rem; }
+        #cultural .highlights .highlight svg path, #cultural .highlights .highlight svg rect, #cultural .highlights .highlight svg polygon {
+          fill: #96D5BD !important;
+          stroke: #96D5BD !important; }
+        #cultural .highlights .highlight svg:hover path, #cultural .highlights .highlight svg:hover rect, #cultural .highlights .highlight svg:hover polygon {
+          fill: white !important;
+          stroke: white !important; }
+
+/*# sourceMappingURL=cultural.css.map */
